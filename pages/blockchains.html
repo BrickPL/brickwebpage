@@ -1,0 +1,18 @@
+<div ng-cloak style="align-content: center">
+        <table class="center stripe">
+        <thead>
+        Blockchain
+        <tr ng-repeat="names in blockchainsCtrl.attributesNames">
+            <th>Blockchain</th>
+            {{names}}
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="values in blockchainsCtrl.attributesValues">
+                <td>{{group.gid}}</td>
+                {{names}}
+            </tr>
+        </tbody>
+        </table>
+
+</div>
